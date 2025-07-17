@@ -41,10 +41,12 @@ section{
     width:100%;
     min-height: 100vh;
     display: flex;
-    text-align: center;
+    align-items: center;
     background-color: aquamarine;
+    background-position: center;
+    background-attachment: fixed;
 }
-.main{
+.main {
     color: rgb(172, 6, 145);
     font-size: 1.4em;
     font-weight: 500;
@@ -94,6 +96,7 @@ section{
     justify-content: center;
     flex-direction: row;         /* الكروت دي جمنب بعض */
     flex-wrap: wrap;            /* د عشان مساحه كل كارت تفضل ثابته في المساحه لو الصفحه عرضها خلص تنزل تحت */
+    
  }
 
  .cards{
@@ -104,7 +107,7 @@ section{
     padding: 25px;
     margin: 15px;
     transition: 0.7s ease; 
-    display: inline;
+    /* display: inline; */
  }
 
  .cards:hover{
